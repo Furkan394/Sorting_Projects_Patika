@@ -47,8 +47,9 @@ Big-O Notation: O(nlogn)
 [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] -> Binary Search Tree
 
               6
-            5   7
-          0       8
-            2       9
-          1   4
-            3
+           4     8
+         2  5   7  9
+       1  3       
+     0
+           
+Root 6'dır. Root'un solunda ondan küçük olan 4 bulunur. Sağında ondan büyük olan 8 bulunur. 4'ün solunda küçük olan 2, sağında büyük olan 5 vardır. 8'in solunda küçük olan 7, sağında büyük olan 9 vardır. 2'nin solunda küçük olan 1, sağında büyük olan 3 vardır. 1'in solunda küçük olan 0 vardır.
